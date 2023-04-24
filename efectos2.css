@@ -1,0 +1,123 @@
+p
+{
+	color:#000000;
+	font-size:50pt;
+	font-weight:bold;
+	font-family:Impact;
+}
+
+.encabezado{
+	background:withe;
+	color:red;
+	width:90%;
+	border-radius:15px;
+	font-family:Impact;
+}
+
+.info{
+	background:withe;
+	font-size:18pt;
+	color:black;
+	width:90%;
+	font-family:"Oswald",Sans-serif;
+}
+
+.conoce{
+	background:withe;
+	font-size:35pt;
+	color:red;
+	width:90%;
+	font-family:Impact;
+}
+
+.conoce2{
+	background:withe;
+	font-size:15pt;
+	color:black;
+	width:90%;
+	font-family:Impact;
+}
+
+.boton_azul{
+	background:red;
+	color:white;
+	font-size:30pt;
+	width:250px;
+	border-radius:45px;
+	font-family:Impact;
+	margin-right:70px;
+
+}
+
+.boton_azul:hover{
+	background:white;
+	color:red;
+
+}
+
+.boton_rojo{
+	background:white;
+	color:red;
+	font-size:30pt;
+	width:250px;
+	border-radius:45px;
+	font-family:Impact;
+
+}
+
+.boton_rojo:hover{
+	background:red;
+	color:white;
+
+}
+
+.boton_azul2{
+	background:red;
+	color:white;
+	font-size:15pt;
+	width:150px;
+	border-radius:45px;
+	font-family:Impact;
+	margin-right:70px;
+
+}
+
+.boton_azul2:hover{
+	background:white;
+	color:red;
+
+}
+
+.boton_rojo2{
+	background:white;
+	color:red;
+	font-size:15pt;
+	width:150px;
+	border-radius:45px;
+	font-family:Impact;
+
+}
+
+.boton_rojo2:hover{
+	background:red;
+	color:white;
+
+}
+
+.boton_regresar{
+	background:black;
+	color:white;
+	font-size:15pt;
+	width:150px;
+	border-radius:45px;
+	font-family:Impact;
+
+}
+
+.boton_regresar:hover{
+	background:white;
+	color:black;
+
+}
+
+

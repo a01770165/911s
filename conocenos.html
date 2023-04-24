@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title></title>
+        <link href="efectos2.css" rel="stylesheet" type="text/css">
+        <script src="encripta.js" type="text/JavaScript"></script>
+    </head>
+    <body><center>
+    <p><h1 class="conoce">!!Conoce sobre nosotros!!</h1></p>
+    <p><h1 class="info">TOYS FOR CASH es una una empresa dedicada a la compra y venta de autos semi-nuevos de lujo en la república mexicana.Te invitamos a que sigas descubriendo nuestro sitio web en el que podrás conocer el inventario disponible con el que contamos y también fotos de los productos.
+    Te invitamos a crear una cuenta en la parte inferior para tener un mayor contacto.
+    </h1></p>
+    <table border="2" width="20%">
+			<form name="f_contra">
+				<tr align="center">
+					<td><p><h1 class="conoce2">Crea un nombre de cuenta</h1></p></td>
+					<td><input name="c_cta" type="text" class="campo" maxlength="10" onClick="campos_azules()"></td>
+				</tr>
+				<tr align="center">
+					<td><p><h1 class="conoce2">Crea una contraseña</h1></p></td>
+					<td><input name="c_pass" type="password" class="campo" maxlength="10" onClick="campos_azules()"> 
+						<img src="ojo_abierto.png" width="15" height="15" onClick="mostrar()">
+						<img src="ojo_cerrado.png" width="15" height="15" onClick="ocultar()">
+					</td>
+				</tr>
+				<tr align="center">
+					<td><input name="b_envia" type="button" class="boton_azul2" value="Enviar" onClick="enviar();certificado()"></td>
+					<td><input name="b_reset" type="reset" class="boton_rojo2" value="Reiniciar"></td>
+				</tr>
+				<input name="intentos" type="hidden" value="0">
+			</form>
+		</table>
+		<br><br><br><br>
+		<a href="menu.html">
+             <button class="boton_regresar">Regresar</button>
+        </a>
+     </center></body>
+</html>
